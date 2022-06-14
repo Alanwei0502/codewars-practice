@@ -5,7 +5,7 @@
 // Note: If the number is a multiple of both 3 and 5, only count it once.
 
 // [my solution]
-function solution1(number) {
+function _solution(number) {
   if (typeof number !== 'number' || number <= 0) {
     return 0;
   }
@@ -26,7 +26,7 @@ function solution1(number) {
 }
 
 // [best solution]
-function solution2(number) {
+function solution(number) {
   let sum = 0;
 
   for (let i = 1; i < number; i++) {
